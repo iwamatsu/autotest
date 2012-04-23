@@ -10,15 +10,8 @@
 #export DH_VERBOSE=1
 
 %:
-	dh $@ 
+	dh $@
+
 override_dh_clean:
 	dh_clean
 	rm RELEASE-VERSION
-
-override_dh_install:
-	# client
-	mkdir -p debian/autotest-client/usr/lib/autotest
-	cp -rf client debian/autotest-client/usr/lib/autotest/
-	# server 
-	mkdir -p debian/autotest-server/usr/lib/autotest
-	cp -rf server debian/autotest-server/usr/lib/autotest/
