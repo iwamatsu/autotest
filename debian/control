@@ -4,6 +4,7 @@ Priority: extra
 Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.3
+X-Python-Version: 2.7
 Homepage: http://autotest.github.com/
 #Vcs-Git: git://git.debian.org/collab-maint/autotest.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/autotest.git;a=summary
