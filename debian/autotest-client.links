@@ -1,4 +1,0 @@
-usr/lib/autotest/client/bin/autotest usr/bin/autotest
-usr/lib/autotest/client/bin/autotest_client usr/bin/autotest_client 
-usr/lib/autotest/client/bin/autotestd usr/bin/autotestd
-usr/lib/autotest/client/bin/autotestd_monitor usr/bin/autotestd_monitor
