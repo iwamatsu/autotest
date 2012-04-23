@@ -1,0 +1,5 @@
+autotest (0.13.1-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Tue, 15 Mar 2011 13:17:36 +0900
