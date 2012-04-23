@@ -30,3 +30,93 @@ Description: autotest client
   many other functions such as qualifying new hardware. 
   It's an open-source project under the GPL and is used and developed by
   a number of organizations, including Google, IBM, Red Hat, and many others.
+
+Package: autotest-cli
+Architecture: all
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Provides: ${python:Provides}
+Description: autotest cli
+  Autotest is a framework for fully automated testing.
+  It is designed primarily to test the Linux kernel, though it is useful for
+  many other functions such as qualifying new hardware. 
+  It's an open-source project under the GPL and is used and developed by
+  a number of organizations, including Google, IBM, Red Hat, and many others.
+
+Package: autotest-scheduler
+Architecture: all
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Provides: ${python:Provides}
+Description: autotest scheduler
+  Autotest is a framework for fully automated testing.
+  It is designed primarily to test the Linux kernel, though it is useful for
+  many other functions such as qualifying new hardware. 
+  It's an open-source project under the GPL and is used and developed by
+  a number of organizations, including Google, IBM, Red Hat, and many others.
+
+Package: autotest-tko
+Architecture: all
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Provides: ${python:Provides}
+Description: autotest tko
+  Autotest is a framework for fully automated testing.
+  It is designed primarily to test the Linux kernel, though it is useful for
+  many other functions such as qualifying new hardware. 
+  It's an open-source project under the GPL and is used and developed by
+  a number of organizations, including Google, IBM, Red Hat, and many others.
+
+Package: autotest-frontend
+Architecture: all
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Provides: ${python:Provides}
+Description: autotest frontend
+  Autotest is a framework for fully automated testing.
+  It is designed primarily to test the Linux kernel, though it is useful for
+  many other functions such as qualifying new hardware. 
+  It's an open-source project under the GPL and is used and developed by
+  a number of organizations, including Google, IBM, Red Hat, and many others.
+
+Package: autotest-database
+Architecture: all
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Provides: ${python:Provides}
+Description: autotest database
+  Autotest is a framework for fully automated testing.
+  It is designed primarily to test the Linux kernel, though it is useful for
+  many other functions such as qualifying new hardware. 
+  It's an open-source project under the GPL and is used and developed by
+  a number of organizations, including Google, IBM, Red Hat, and many others.
+
+Package: autotest-mirror
+Architecture: all
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Provides: ${python:Provides}
+Description: autotest mirror
+  Autotest is a framework for fully automated testing.
+  It is designed primarily to test the Linux kernel, though it is useful for
+  many other functions such as qualifying new hardware. 
+  It's an open-source project under the GPL and is used and developed by
+  a number of organizations, including Google, IBM, Red Hat, and many others.
+
+Package: autotest-utils
+Architecture: all
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Provides: ${python:Provides}
+Description: autotest utils
+  Autotest is a framework for fully automated testing.
+  It is designed primarily to test the Linux kernel, though it is useful for
+  many other functions such as qualifying new hardware. 
+  It's an open-source project under the GPL and is used and developed by
+  a number of organizations, including Google, IBM, Red Hat, and many others.
+
+
+Package: autotest-commmon
+Architecture: all
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Provides: ${python:Provides}
+Description: autotest common
+  Autotest is a framework for fully automated testing.
+  It is designed primarily to test the Linux kernel, though it is useful for
+  many other functions such as qualifying new hardware. 
+  It's an open-source project under the GPL and is used and developed by
+  a number of organizations, including Google, IBM, Red Hat, and many others.
+
