@@ -22,7 +22,7 @@ Description: autotest server
 
 Package: autotest-client
 Architecture: all
-Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}, autotest-common
 Provides: ${python:Provides}
 Description: autotest client
   Autotest is a framework for fully automated testing.
@@ -109,7 +109,7 @@ Description: autotest utils
   a number of organizations, including Google, IBM, Red Hat, and many others.
 
 
-Package: autotest-commmon
+Package: autotest-common
 Architecture: all
 Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
 Provides: ${python:Provides}
